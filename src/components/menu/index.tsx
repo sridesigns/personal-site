@@ -63,18 +63,22 @@ const Menu = () => {
           <div className="w-16 h-16 rounded-full bg-gray-900 mb-6" />
           <div>
             <Link href="/">
-              <h1 className="text-xl font-extrabold text-gray-900 hover:text-blue-600 pb-2 tracking-tighter">Sriram Venugopal.</h1>
+              <h1 className="text-xl font-extrabold text-gray-900 hover:text-blue-600 pb-4 tracking-tighter">Sriram Venugopal.</h1>
             </Link>
-            <p className="text-sm text-gray-600 font-writer tracking-tight leading-relaxed font-medium">👋 Hello, I’m Sri. I’m a product designer, maker and illustrator based in Berlin. 
-              I’m currently designing products and experiences for Zalando SE.</p>
+            <div className=" flex flex-col space-y-2">
+              <p className="text-sm text-gray-600 font-writer tracking-tight leading-relaxed">👋 Product designer, maker and illustrator.</p>
+              <p className="text-sm text-gray-600 font-writer tracking-tight leading-relaxed">🇩🇪 Living in Berlin, Germany.</p>
+              <p className="text-sm text-gray-600 font-writer tracking-tight leading-relaxed">🇮🇳 From Chennai, India.</p>
+              <p className="text-sm text-gray-600 font-writer tracking-tight leading-relaxed">🛍️ Designing products and experiences @ Zalando SE</p>
+            </div>
           </div>
           <div className= "flex flex-col space-y-4 my-12">
             {
               defaultRoutes.map((route) => {
                 const isSelected = route.path === router.pathname
-                const defaultLinks = `font-writer text-gray-700 tracking-tight border-l-2 border-gray-50 px-2 py-1`
-                const activeLinks = `font-writer text-blue-700 font-bold tracking-tight border-l-2 border-blue-600 px-2 py-1`
-                const inactiveLinks = `hover:text-blue-600 hover:font-medium`
+                const defaultLinks = `font-writer text-gray-700 tracking-tight py-1`
+                const activeLinks = `font-writer text-blue-700 font-bold tracking-tight py-1`
+                const inactiveLinks = `hover:text-blue-600 hover:font-bold`
                 return (
                   <Link href={route.path} key={route.path}
                       className={`

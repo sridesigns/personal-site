@@ -65,11 +65,11 @@ export default function BlogDetail({ archive, content }) {
               <p className="text-base text-gray-700 font-writer tracking-tight">{archive.description}</p>
             </header>
             <HorizontalLine />
-            <div className="my-10 max-w-none prose prose-headings:font-extrabold prose-headings:tracking-tight
+            <div className="my-10 max-w-none prose prose-sm prose-headings:font-extrabold prose-headings:tracking-tight
                 prose-p:font-writer prose-p:text-gray-700 prose-p:leading-relaxed prose-p:tracking-tight
                 prose-ul:font-writer prose-ul:text-gray-700 prose-strong:font-semibold
                 prose-a:text-blue-600 hover:prose-a:underline prose-a:no-underline hover:prose-a:font-bold  
-                prose-blockquote:bg-sky-50 prose-blockquote:border prose-blockquote:border-sky-200
+                prose-blockquote:bg-violet-50 prose-blockquote:border prose-blockquote:border-violet-200
                 prose-blockquote:rounded-md prose-blockquote:p-4 prose-blockquote:text-sm prose-blockquote:text-gray-700">
             <RichText content={archive.content.raw.children} />
             </div>

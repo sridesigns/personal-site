@@ -27,7 +27,7 @@ export default function About() {
             <header className="pb-10">
                 <div className="grid grid-cols-5 gap-8">
                     <div className="col-span-3 space-y-4 text-base my-auto">
-                        <h1 className="text-4xl font-semibold tracking-tightwe text-gray-900 pb-2">✌️ Hi <span className="font-extrabold italic tracking-tighter">There!</span></h1>
+                        <h1 className="text-4xl font-semibold tracking-tightwe text-gray-900 pb-2">✌️ Hello, I&apos;m <span className="font-extrabold italic tracking-tighter">Sri!</span></h1>
                         <p className="leading-relaxed font-writer tracking-tight text-gray-700">My full name is Sriram Venugopal. I'm an Indian <span className="italic">(he/him)</span> living in Berlin, Germany.</p>
                         <p className="leading-relaxed font-writer tracking-tight text-gray-700"> I am a product designer, building delightful consumer &amp; partner experiences at&nbsp;
                             <Link href="https://en.zalando.de/?_rfl=de" 

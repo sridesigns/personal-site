@@ -6,6 +6,7 @@ import { GetBlog, GetBlogSlug } from "@/graphql/data/posts/blog";
 import { RichText } from '@graphcms/rich-text-react-renderer';
 import { motion } from "framer-motion";
 import HorizontalLine from "@/components/divider";
+import Back from "@/components/back";
 
 
 
@@ -56,9 +57,7 @@ export default function BlogDetail({ blog, content }) {
             className="col-span-4 my-20">
             <div>
               <Link href="/life">
-                  <button className="inline-flex space-x-2 my-10 items-center">
-                    <p className="text-gray-900 pb-1 hover:text-blue-600 hover:font-semibold">Back</p>
-                  </button>
+                <Back />
               </Link>
             </div>
             <header className="space-y-4 pb-4">
@@ -69,9 +68,12 @@ export default function BlogDetail({ blog, content }) {
               </div>
             </header>
             <HorizontalLine />
-            <div className="my-10 prose prose-headings:font-extrabold prose-headings:tracking-tight
-             prose-p:font-writer prose-p:text-gray-700 prose-p: leading-relaxed prose-ul: font-writer prose-ul:text-gray-700
-              prose-a:text-blue-600 prose-a:font-bold prose-strong:font-semibold prose-blockquote:not-italic w-full">
+            <div className="my-10 max-w-none prose prose-sm prose-headings:font-extrabold prose-headings:tracking-tight
+                prose-p:font-writer prose-p:text-gray-700 prose-p:leading-relaxed prose-p:tracking-tight
+                prose-ul:font-writer prose-ol:font-writer prose-ul:text-gray-700 prose-strong:font-semibold
+                prose-a:text-blue-600 hover:prose-a:underline prose-a:no-underline hover:prose-a:font-bold  
+                prose-blockquote:bg-violet-50 prose-blockquote:border prose-blockquote:border-violet-200
+                prose-blockquote:rounded-md prose-blockquote:p-4 prose-blockquote:text-sm prose-blockquote:text-gray-700">
             <RichText content={blog.body.raw.children} />
             </div>
           </motion.div>  
