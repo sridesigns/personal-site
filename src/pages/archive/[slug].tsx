@@ -70,7 +70,8 @@ export default function BlogDetail({ archive, content }) {
                 prose-ul:font-writer prose-ul:text-gray-700 prose-strong:font-semibold
                 prose-a:text-blue-600 hover:prose-a:underline prose-a:no-underline hover:prose-a:font-bold  
                 prose-blockquote:bg-violet-50 prose-blockquote:border prose-blockquote:border-violet-200
-                prose-blockquote:rounded-md prose-blockquote:p-4 prose-blockquote:text-sm prose-blockquote:text-gray-700">
+                prose-blockquote:rounded-md prose-blockquote:p-4 prose-blockquote:text-sm prose-blockquote:text-gray-700
+                prose-img:rounded-lg">
             <RichText content={archive.content.raw.children} />
             </div>
           </motion.div>  

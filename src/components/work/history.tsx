@@ -1,8 +1,8 @@
 export default function History () {
     return (
         <div className="columns-1 md:columns-2 lg:columns-3 space-y-4">
-            <p className="text-sm text-slate-700 leading-relaxed font-writer tracking-tight">I completed my bachelor's in electronics and instrumentation engineering in May 2011 and was recruited 
-            as a software engineer at TCS, one of India's biggest IT consulting firms, in Sep 2011.</p>
+            <p className="text-sm text-slate-700 leading-relaxed font-writer tracking-tight">I completed my bachelor&apos;s in electronics and instrumentation engineering in May 2011 and was recruited 
+            as a software engineer at TCS, one of India&apos;s biggest IT consulting firms, in Sep 2011.</p>
             <p className="text-sm text-slate-700 leading-relaxed font-writer tracking-tight">I consulted for Nielsen Holdings, a global leader in data and analytics as an engineer for two years. 
             We developed robust reporting and analytics software that processed information from 700k+ households across North America and helped shape the future of media and advertisements.</p>
             <p className="text-sm text-slate-700 leading-relaxed font-writer tracking-tight">At the end of 2013, I sought out a new challenge. Within TCS, I had an opportunity to work as a user analyst with 
@@ -17,7 +17,7 @@ export default function History () {
             for the ever-changing needs of the modern employee.</p>
             <p className="text-sm text-slate-700 leading-relaxed font-writer tracking-tight">TCS partnered with Microsoft, and I helped design and launch an automated, gamified migration process that enabled TCS to onboard more than 170,000 
             employees to MS Suite in less than 180 days. This initiative helped us reduce costs and human hours, increase productivity and seamlessly enable the transition to remote work when the pandemic occurred.</p>
-            <p className="text-sm text-slate-700 leading-relaxed font-writer tracking-tight">In 2022, After an incredible decade with TCS, I joined Zalando and relocated to Berlin. I'm working with an amazing team, shaping the future 
+            <p className="text-sm text-slate-700 leading-relaxed font-writer tracking-tight">In 2022, After an incredible decade with TCS, I joined Zalando and relocated to Berlin. I&apos;m working with an amazing team, shaping the future 
             of e-commerce for consumers and partners.</p>
         </div>
     )

@@ -28,7 +28,7 @@ export default function About() {
                 <div className="grid grid-cols-5 gap-8">
                     <div className="col-span-3 space-y-4 text-base my-auto">
                         <h1 className="text-4xl font-semibold tracking-tightwe text-gray-900 pb-2">✌️ Hello, I&apos;m <span className="font-extrabold italic tracking-tighter">Sri!</span></h1>
-                        <p className="leading-relaxed font-writer tracking-tight text-gray-700">My full name is Sriram Venugopal. I'm an Indian <span className="italic">(he/him)</span> living in Berlin, Germany.</p>
+                        <p className="leading-relaxed font-writer tracking-tight text-gray-700">My full name is Sriram Venugopal. I&apos;m an Indian <span className="italic">(he/him)</span> living in Berlin, Germany.</p>
                         <p className="leading-relaxed font-writer tracking-tight text-gray-700"> I am a product designer, building delightful consumer &amp; partner experiences at&nbsp;
                             <Link href="https://en.zalando.de/?_rfl=de" 
                             className= "font-bold text-gray-900 hover:underline hover:text-blue-600" target="_blank" rel="noopener noreferrer">Zalando SE.
@@ -88,7 +88,7 @@ export default function About() {
                     storytelling, product and visual design, design systems, data visualisation, illustrations, and facilitate diverse workshops for companies across the globe. <br />I also like to code occasionally. I have been experimenting with Next.js, Tailwind CSS.</p>
                     <p className="text-gray-700 bg-sky-50 border border-sky-200 rounded-md p-4 text-sm">😎 Fun fact &rarr; This site is powered using the same stack  along with an headless CMS.</p>
                 </div>
-                <p className="text-gray-700 leading-relaxed font-writer tracking-tight">Outside of work, I'm mostly exploring Berlin and parts of Europe, cooking, reading, sketching, playing video games and&nbsp;
+                <p className="text-gray-700 leading-relaxed font-writer tracking-tight">Outside of work, I&apos;m mostly exploring Berlin and parts of Europe, cooking, reading, sketching, playing video games and&nbsp;
                     <Link href="https://youtube.com"
                     className= "font-bold text-gray-900 hover:underline hover:text-blue-600" target="_blank" rel="noopener noreferrer">getting lost on this endless rabbit hole.
                     </Link></p>
