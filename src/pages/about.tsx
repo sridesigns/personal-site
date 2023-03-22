@@ -63,7 +63,7 @@ export default function About() {
                         <p className="text-sm text-gray-700 leading-relaxed font-writer tracking-tight">2007 - 2011 &middot; Bachelor of Engineering in Electronics and Instrumentation</p>
                     </div>
                     <div className="space-y-1">
-                        <h6 className="text-base font-semibold text-gray-900 tracking-tight font-writer">St.John's Mat. Hr. Sec. School</h6>
+                        <h6 className="text-base font-semibold text-gray-900 tracking-tight font-writer">St.John&apos;s Mat. Hr. Sec. School</h6>
                         <p className="text-sm text-gray-700 leading-relaxed font-writer tracking-tight">2005 - 2007 &middot; Higher Secondary in Science</p>
                     </div>
                 </div>
