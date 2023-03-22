@@ -6,7 +6,7 @@ export default function History () {
             <p className="text-sm text-slate-700 leading-relaxed font-writer tracking-tight">I consulted for Nielsen Holdings, a global leader in data and analytics as an engineer for two years. 
             We developed robust reporting and analytics software that processed information from 700k+ households across North America and helped shape the future of media and advertisements.</p>
             <p className="text-sm text-slate-700 leading-relaxed font-writer tracking-tight">At the end of 2013, I sought out a new challenge. Within TCS, I had an opportunity to work as a user analyst with 
-            a NA client, Citibank. Along with a design agency, we designed and developed Citibank's consumer mobile app. I worked closely with the design firm to bridge 
+            a NA client, Citibank. Along with a design agency, we designed and developed Citibank&apos;s consumer mobile app. I worked closely with the design firm to bridge 
             business and user needs. I facilitated multiple discovery workshops and user research sessions and helped successfully launch different features across Latin America.</p>
             <p className="text-sm text-slate-700 leading-relaxed font-writer tracking-tight">My career as an &quot;official&quot; designer started in 2014. I moved to the Labs team and consulted for GE as a product designer. I
             worked on multiple PoCs across the manufacturing industry and designed for users with different needs and non-traditional media like large-scale screens and instrument clusters.</p>
