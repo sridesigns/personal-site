@@ -11,7 +11,7 @@ import Back from "@/components/back";
 
 
 export async function getStaticPaths() {
-  const data = await GetArchiveSlug()
+  const data:any = await GetArchiveSlug()
   const slugs = data.archives
 
   return {
@@ -23,7 +23,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const post = await GetArchive(params.slug)
+  const post:any = await GetArchive(params.slug)
 
   return {
     revalidate: 60,

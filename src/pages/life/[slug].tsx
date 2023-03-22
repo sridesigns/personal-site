@@ -10,9 +10,11 @@ import Back from "@/components/back";
 
 
 
+
 export async function getStaticPaths() {
-  const data = await GetBlogSlug()
+  const data :any = await GetBlogSlug()
   const slugs = data.blogs
+  console.log(slugs)
 
   return {
     paths: slugs.map((slug) => ({
@@ -23,7 +25,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const post = await GetBlog(params.slug)
+  const post:any = await GetBlog(params.slug)
 
   return {
     revalidate: 60,
