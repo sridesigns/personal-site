@@ -65,11 +65,24 @@ const Menu = () => {
             <Link href="/">
               <h1 className="text-xl font-extrabold text-gray-900 hover:text-blue-600 pb-4 tracking-tighter">Sriram Venugopal.</h1>
             </Link>
-            <div className=" flex flex-col space-y-2">
-              <p className="text-sm text-gray-600 font-writer tracking-tight leading-relaxed">👋 Product designer, maker and illustrator.</p>
-              <p className="text-sm text-gray-600 font-writer tracking-tight leading-relaxed">🇩🇪 Living in Berlin, Germany.</p>
-              <p className="text-sm text-gray-600 font-writer tracking-tight leading-relaxed">🇮🇳 From Chennai, India.</p>
-              <p className="text-sm text-gray-600 font-writer tracking-tight leading-relaxed">🛍️ Designing products and experiences @ Zalando SE</p>
+            <div className="flex flex-col space-y-2">
+              <div className="flex flex-row gap-2 text-sm text-gray-600 font-writer tracking-tight leading-relaxed">
+                <p>👋</p>
+                <p>Product designer, maker and illustrator.</p>
+              </div>
+              <div className=" flex flex-row gap-2 text-sm text-gray-600 font-writer tracking-tight leading-relaxed">
+                <p>🇩🇪</p>
+                <p>Living in Berlin, Germany</p>
+              </div>
+              <div className=" flex flex-row gap-2 text-sm text-gray-600 font-writer tracking-tight leading-relaxed">
+                <p>🇮🇳</p>
+                <p>From Chennai, India.</p>
+              </div>
+              <div className=" flex flex-row gap-2 text-sm text-gray-600 font-writer tracking-tight leading-relaxed">
+                <p>🛍️</p>
+                <p>Designing products and experiences @&nbsp;<Link href="https://en.zalando.de/?_rfl=de" target="_blank" rel="noopener noreferrer"
+                 className="text-orange-500 font-semibold hover:underline hover:text-blue-600 hover:font-bold">Zalando SE</Link></p>
+              </div>
             </div>
           </div>
           <div className= "flex flex-col space-y-4 my-12">
