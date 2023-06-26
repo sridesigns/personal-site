@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import { useState } from 'react';
 import Hamburger from '../../assets/hamburger';
 import Close from '../../assets/close';
+import Logo from '../home/logo';
 
 const defaultRoutes = [
   Routes.work,
@@ -60,7 +61,7 @@ const Menu = () => {
       {/* Desktop Navigation Starts */}
       <div className="hidden lg:flex top-0 z-10 my-20 pr-4 fixed">
         <div className="flex flex-col w-80">
-          <div className="w-16 h-16 rounded-full bg-gray-900 mb-6" />
+          <Logo />
           <div>
             <Link href="/">
               <h1 className="text-xl font-extrabold text-gray-900 hover:text-blue-600 pb-4 tracking-tighter">Sriram Venugopal.</h1>
