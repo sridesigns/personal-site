@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        citrus: '#F6F5F0'
+      },
       fontFamily: {
         'sans': ['Inter Var', ...defaultTheme.fontFamily.sans],
         'writer': ['iA Writer Quattro', ...defaultTheme.fontFamily.sans],
