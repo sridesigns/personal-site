@@ -28,9 +28,9 @@ export default function Home() {
           transition={{ duration: 0.3 }}
           className="col-span-4">
           <header className="my-20">
-            <h1 className="text-5xl lg:text-8xl font-extrabold tracking-tighter text-gray-900 text-left pb-6"> Inquisitive designer, researcher, 
-            artist, flâneur.</h1>
-            <p className="font-writer text-sm text-gray-700 tracking-tight pt-6 leading-relaxed">Throughout my career, I have had the opportunity to work on a wide range of products, from mobile apps to enterprise software. 
+            <h1 className="text-5xl lg:text-7xl font-extrabold tracking-tighter text-gray-900 text-left pb-6"> Inquisitive designer, researcher, 
+            artist, and a wanderer.</h1>
+            <p className="font-writer text-sm text-gray-700 tracking-tight leading-relaxed">Throughout my career, I have had the opportunity to work on a wide range of products, from mobile apps to enterprise software. 
               My approach to design is holistic and collaborative, and I believe in the power of research and user testing to inform my work.</p>
           </header>
 
