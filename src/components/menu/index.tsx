@@ -91,7 +91,7 @@ const Menu = () => {
               defaultRoutes.map((route) => {
                 const isSelected = route.path === router.pathname
                 const defaultLinks = `font-writer text-gray-700 tracking-tight py-1`
-                const activeLinks = `font-writer text-blue-700 font-bold tracking-tight py-1`
+                const activeLinks = `font-writer text-gray-900 font-bold tracking-tight py-1`
                 const inactiveLinks = `hover:text-blue-600 hover:font-bold`
                 return (
                   <Link href={route.path} key={route.path}
