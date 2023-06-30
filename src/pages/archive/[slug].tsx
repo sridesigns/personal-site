@@ -61,7 +61,7 @@ export default function BlogDetail({ archive, content }) {
               </Link>
             </div>
             <header className="space-y-4 pb-4">
-              <h2 className="text-4xl text-gray-900 font-extrabold tracking-tighter">{archive.title}</h2>
+              <h2 className="text-4xl text-gray-950 font-extrabold tracking-tighter">{archive.title}</h2>
               <p className="text-base text-gray-700 font-writer tracking-tight">{archive.description}</p>
             </header>
             <HorizontalLine />

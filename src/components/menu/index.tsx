@@ -43,7 +43,7 @@ const Menu = () => {
           </p>
         </div>
         {isActive && (
-          <div className="w-full h-px mt-2 bg-gray-900 bg-opacity-10" />
+          <div className="w-full h-px mt-2 bg-gray-950 bg-opacity-10" />
         )}
         {isActive &&
           defaultRoutes.map((route) => {
@@ -66,20 +66,20 @@ const Menu = () => {
             <Link href="/">
               <h1 className="text-xl font-extrabold text-gray-900 hover:text-blue-600 pb-4 tracking-tighter">Sriram Venugopal.</h1>
             </Link>
-            <div className="flex flex-col space-y-2">
-              <div className="flex flex-row gap-2 text-sm text-gray-600 font-writer tracking-tight leading-relaxed">
+            <div className="flex flex-col space-y-2 text-sm text-gray-700 font-writer tracking-tight leading-relaxed">
+              <div className="flex flex-row gap-2">
                 <p>👋</p>
                 <p>Product designer, maker and illustrator.</p>
               </div>
-              <div className=" flex flex-row gap-2 text-sm text-gray-600 font-writer tracking-tight leading-relaxed">
+              <div className=" flex flex-row gap-2">
                 <p>🇩🇪</p>
                 <p>Living in Berlin, Germany</p>
               </div>
-              <div className=" flex flex-row gap-2 text-sm text-gray-600 font-writer tracking-tight leading-relaxed">
+              <div className=" flex flex-row gap-2">
                 <p>🇮🇳</p>
                 <p>From Chennai, India.</p>
               </div>
-              <div className=" flex flex-row gap-2 text-sm text-gray-600 font-writer tracking-tight leading-relaxed">
+              <div className=" flex flex-row gap-2">
                 <p>🛍️</p>
                 <p>Designing products and experiences @&nbsp;<Link href="https://en.zalando.de/?_rfl=de" target="_blank" rel="noopener noreferrer"
                  className="text-orange-500 font-semibold hover:underline hover:text-blue-600 hover:font-bold">Zalando SE</Link></p>
@@ -91,7 +91,7 @@ const Menu = () => {
               defaultRoutes.map((route) => {
                 const isSelected = route.path === router.pathname
                 const defaultLinks = `font-writer text-gray-700 tracking-tight py-1`
-                const activeLinks = `font-writer text-gray-900 font-bold tracking-tight py-1`
+                const activeLinks = `font-writer text-gray-950 font-bold tracking-tight py-1`
                 const inactiveLinks = `hover:text-blue-600 hover:font-bold`
                 return (
                   <Link href={route.path} key={route.path}

@@ -63,7 +63,7 @@ export default function BlogDetail({ blog, content }) {
               </Link>
             </div>
             <header className="space-y-4 pb-4">
-              <h2 className="text-4xl text-gray-900 font-extrabold tracking-tighter">{blog.title}</h2>
+              <h2 className="text-4xl text-gray-950 font-extrabold tracking-tighter">{blog.title}</h2>
               <p className="text-base text-gray-700 font-writer tracking-tight">{blog.excerpt}</p>
               <div className="flex space-x-2 align-middle">
                 <p className="text-gray-500 text-sm font-writer">{new Date(blog.publishedAt).toLocaleDateString()}</p>

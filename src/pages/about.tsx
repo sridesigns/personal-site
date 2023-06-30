@@ -30,7 +30,7 @@ export default function About() {
                     <div className="col-span-3 space-y-4 text-base my-auto">
                     <AboutMeDescription />
                     </div>
-                    <div className="col-span-2 border-gray-900 border-4">
+                    <div className="col-span-2 border-gray-950 border-4">
                         <Image
                         src={profilePic}
                         alt="This is Meee!"
@@ -46,22 +46,22 @@ export default function About() {
                 <div className="col-span-2 space-y-4 align-middle">
                     <h4 className="text-2xl font-extrabold tracking-tight">Education</h4>
                     <div className="space-y-1 pb-2">
-                        <h6 className="text-base font-semibold text-gray-900 tracking-tight font-writer">RMK Engineering College, Chennai</h6>
+                        <h6 className="text-base font-semibold tracking-tight font-writer">RMK Engineering College, Chennai</h6>
                         <p className="text-sm text-gray-700 leading-relaxed font-writer tracking-tight">2007 - 2011 &middot; Bachelor of Engineering in Electronics and Instrumentation</p>
                     </div>
                     <div className="space-y-1">
-                        <h6 className="text-base font-semibold text-gray-900 tracking-tight font-writer">St.John&apos;s Mat. Hr. Sec. School</h6>
+                        <h6 className="text-base font-semibold tracking-tight font-writer">St.John&apos;s Mat. Hr. Sec. School</h6>
                         <p className="text-sm text-gray-700 leading-relaxed font-writer tracking-tight">2005 - 2007 &middot; Higher Secondary in Science</p>
                     </div>
                 </div>
                 <div className="col-span-2 space-y-4">
                     <h4 className=" text-2xl font-extrabold tracking-tight">Experience</h4>
                     <div className="space-y-1 pb-2">
-                        <p className="text-gray-700 font-writer tracking-tight"><span className=" text-base font-semibold text-gray-900 tracking-tight">Zalando SE</span>&nbsp;&middot; 2022 - Present</p>
+                        <p className="text-gray-700 font-writer tracking-tight"><span className=" text-base text-gray-950 font-semibold tracking-tight">Zalando SE</span>&nbsp;&middot; 2022 - Present</p>
                         <p className="text-gray-700 leading-relaxed tracking-tight font-writer text-sm">Product Design &middot; Zalando Marketing Services &middot; Partner Experiences. </p>
                     </div>
                     <div className="space-y-1">
-                        <p className="text-gray-700 font-writer tracking-tight"><span className="text-base font-semibold text-gray-900 tracking-tight">Tata Consultancy Services</span>&nbsp;&middot; 2011 - 2022</p>
+                        <p className="text-gray-700 font-writer tracking-tight"><span className="text-base text-gray-950 font-semibold tracking-tight">Tata Consultancy Services</span>&nbsp;&middot; 2011 - 2022</p>
                         <p className="text-gray-700 leading-relaxed tracking-tight font-writer text-sm">User Experience and Service Design &middot; Global Clients &middot; B2C, B2B, &amp; B2E &middot; 
                         Design Strategy &amp; Design Systems.</p>
                     </div>    
@@ -77,7 +77,7 @@ export default function About() {
                 </div>
                 <p className="text-gray-700 leading-relaxed font-writer tracking-tight">Outside of work, I&apos;m mostly exploring Berlin and parts of Europe, cooking, reading, sketching, playing video games and&nbsp;
                     <Link href="https://youtube.com"
-                    className= "font-bold text-gray-900 hover:underline hover:text-blue-600" target="_blank" rel="noopener noreferrer">getting lost on this endless rabbit hole.
+                    className= "font-bold text-gray-950 hover:underline hover:text-blue-600" target="_blank" rel="noopener noreferrer">getting lost on this endless rabbit hole.
                     </Link></p>
             </div>
 

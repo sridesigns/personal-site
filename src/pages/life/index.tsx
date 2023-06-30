@@ -37,13 +37,13 @@ export default function Life({ posts }) {
            transition={{ duration: 0.4 }}
            className="col-span-4 my-20">
           <header className="pb-16 space-y-2">
-            <h1 className="text-4xl font-extrabold text-gray-900 tracking-tighter">Life // Journal of my thoughts</h1>
+            <h1 className="text-4xl font-extrabold tracking-tighter">Life // Journal of my thoughts</h1>
           </header>
           <div className="space-y-10 pb-20">
             {posts?.blogs?.map((blog) => (
               <div key={blog.slug}>
                 <Link href={`/life/${blog.slug}`}>
-                    <h4 className="text-lg font-bold text-gray-900 hover:text-blue-600 leading-relaxed tracking-tight">{blog.title}</h4>
+                    <h4 className="text-lg font-bold text-gray-950 hover:text-blue-600 leading-relaxed tracking-tight">{blog.title}</h4>
                 </Link>
                 <p className="text-sm text-gray-700 leading-relaxed py-1 tracking-tight font-writer">{blog.excerpt}</p>
                 <p className="text-xs text-gray-500 font-writer tracking-tight py-1">{new Date(blog.publishedAt).toLocaleDateString()}</p>

@@ -44,7 +44,7 @@ export default function Work({ work}: Props) {
            transition={{ duration: 0.4 }}
            className="col-span-4 my-20">
           <header className="space-y-4 pb-10">
-            <h1 className="text-4xl font-extrabold text-gray-900 pb-4 tracking-tighter">Work &middot; Professional Highlights</h1>
+            <h1 className="text-4xl font-extrabold pb-4 tracking-tighter">Work &middot; Professional Highlights</h1>
             <History />
           </header>
 
