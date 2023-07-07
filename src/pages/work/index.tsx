@@ -59,7 +59,7 @@ export default function Work({ work}: Props) {
           {/* From the Archives */}
 
           <div>
-              <h2 className="text-2xl font-semibold tracking-tight pb-2">From the&nbsp;<span className="italic font-extrabold">Archives</span></h2>
+              <h2 className="text-2xl font-medium tracking-tight pb-2">From the&nbsp;<span className="italic font-extrabold">Archives</span></h2>
               <HorizontalLine />
               <Archives work={work} />
           </div>

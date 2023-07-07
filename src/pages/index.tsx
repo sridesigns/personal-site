@@ -3,6 +3,7 @@ import Menu from '@/components/menu'
 import Layout from '@/components/layout'
 import HorizontalLine from '@/components/divider'
 import { motion } from 'framer-motion'
+import SelectedWorks from '@/components/home/selected'
 
 
 export default function Home() {
@@ -27,7 +28,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
           className="col-span-4">
-          <header className="my-20">
+          <header className="mt-20 mb-10">
             <h1 className="text-5xl lg:text-7xl font-extrabold tracking-tighter text-left pb-6"> Inquisitive designer, researcher, 
             artist, and a wanderer.</h1>
             <p className="font-writer text-sm text-gray-600 tracking-tight leading-relaxed">Throughout my career, I have had the opportunity to work on a wide range of products, from mobile apps to enterprise software. 
@@ -35,30 +36,13 @@ export default function Home() {
           </header>
 
           {/* Case Studies Section */}
-          <div>
-            {/**<p className="text-sm font-semibold tracking-widest text-green-600 uppercase font-writer">Case Studies</p>**/}
-            <h2 className="text-3xl tracking-tighter font-semibold py-2">Selected <span className="font-bold italic">Works</span></h2>
+            <h2 className="text-2xl tracking-tighter font-medium py-2">Selected <span className="font-extrabold italic">Works</span></h2>
             <HorizontalLine />
-            <div className="lg:grid grid-cols-2 gap-6 my-6">
-              <div className="col-span-1 bg-white border border-gray-200 rounded-2xl">
-                <div className="px-4 pt-4 pb-6">
-
-                  <h4 className="text-base font-bold">Partner Experience Program</h4>
-                  <p className="text-sm text-gray-600">Conceptualised and validated an unified reporting experience for Zalando marketing partners.</p>
-                </div>
-              </div>
-
+            <div className="my-8">  
+              <SelectedWorks />
             </div>
-          </div>
 
           {/* Writing Section */}
-          <div className="flex max-w-screen-lg mx-auto min-h-fit">
-            <div className="relative bg-gray-100 rounded-2xl my-8">
-              <p className="text-sm font-semibold text-center tracking-widest text-gray-800 uppercase">Recent Writing</p>
-              <h2 className="text-gray-900 text-5xl tracking-tighter font-semibold text-center pt-2 pb-10">Some musings on <br />
-              life, travel, design, art and tech...</h2>
-            </div>
-          </div>
         </motion.div>
       </main>
     </Layout>  

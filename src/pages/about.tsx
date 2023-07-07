@@ -43,17 +43,6 @@ export default function About() {
             </header>
 
             <div className="grid grid-cols-4 gap-8 pb-12">
-                <div className="col-span-2 space-y-4 align-middle">
-                    <h4 className="text-2xl font-extrabold tracking-tight">Education</h4>
-                    <div className="space-y-1 pb-2">
-                        <h6 className="text-base font-semibold tracking-tight font-writer">RMK Engineering College, Chennai</h6>
-                        <p className="text-sm text-gray-700 leading-relaxed font-writer tracking-tight">2007 - 2011 &middot; Bachelor of Engineering in Electronics and Instrumentation</p>
-                    </div>
-                    <div className="space-y-1">
-                        <h6 className="text-base font-semibold tracking-tight font-writer">St.John&apos;s Mat. Hr. Sec. School</h6>
-                        <p className="text-sm text-gray-700 leading-relaxed font-writer tracking-tight">2005 - 2007 &middot; Higher Secondary in Science</p>
-                    </div>
-                </div>
                 <div className="col-span-2 space-y-4">
                     <h4 className=" text-2xl font-extrabold tracking-tight">Experience</h4>
                     <div className="space-y-1 pb-2">
@@ -65,6 +54,17 @@ export default function About() {
                         <p className="text-gray-700 leading-relaxed tracking-tight font-writer text-sm">User Experience and Service Design &middot; Global Clients &middot; B2C, B2B, &amp; B2E &middot; 
                         Design Strategy &amp; Design Systems.</p>
                     </div>    
+                </div>
+                <div className="col-span-2 space-y-4 align-middle">
+                    <h4 className="text-2xl font-extrabold tracking-tight">Education</h4>
+                    <div className="space-y-1 pb-2">
+                        <h6 className="text-base font-semibold tracking-tight font-writer">RMK Engineering College, Chennai</h6>
+                        <p className="text-sm text-gray-700 leading-relaxed font-writer tracking-tight">2007 - 2011 &middot; Bachelor of Engineering in Electronics and Instrumentation</p>
+                    </div>
+                    <div className="space-y-1">
+                        <h6 className="text-base font-semibold tracking-tight font-writer">St.John&apos;s Mat. Hr. Sec. School</h6>
+                        <p className="text-sm text-gray-700 leading-relaxed font-writer tracking-tight">2005 - 2007 &middot; Higher Secondary in Science</p>
+                    </div>
                 </div>
             </div>
 
